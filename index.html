@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Student Feedback</title>
+
+    <style>
+
+        body {
+            font-family: Arial;
+            background-color: #eef2f3;
+            text-align: center;
+        }
+
+        .container {
+            background-color: white;
+            width: 550px;
+            margin: 50px auto;
+            padding: 30px;
+            border-radius: 15px;
+        }
+
+        input, select, textarea {
+            width: 90%;
+            padding: 10px;
+            margin: 8px;
+        }
+
+        textarea {
+            height: 100px;
+        }
+
+        button {
+            padding: 12px 30px;
+            background-color: #1565c0;
+            color: white;
+            border: none;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Student Feedback Form</h1>
+
+    <form>
+
+        <h3>Course Name</h3>
+        <input type="text" value="Software Engineering">
+
+        <h3>Faculty Name</h3>
+        <input type="text" value="Dr. Senthil Kumar">
+
+        <h3>Student Name</h3>
+        <input type="text" placeholder="Enter Student Name">
+
+        <h3>Register Number</h3>
+        <input type="text" placeholder="Enter Register Number">
+
+        <h3>Department</h3>
+        <input type="text" value="Information Technology">
+
+        <h3>Rating</h3>
+
+        <select>
+            <option>5 - Excellent</option>
+            <option>4 - Very Good</option>
+            <option>3 - Good</option>
+            <option>2 - Average</option>
+            <option>1 - Poor</option>
+        </select>
+
+        <h3>Feedback / Comments</h3>
+
+        <textarea placeholder="Enter your feedback"></textarea>
+
+        <br>
+
+        <button type="submit">Submit Feedback</button>
+
+    </form>
+
+</div>
+
+</body>
+
+</html>
