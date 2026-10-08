@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: student-feedback
-          image: abhinesh18g/student-feedback:v2
+          image: abhinesh18g/student-feedback:v1
           ports:
             - containerPort: 80
 
